@@ -1,6 +1,8 @@
-# Job Ad Normalizer (POC)
+[![Process Job Ads](https://github.com/st2f/job-ad-parser-ai/actions/workflows/main.yml/badge.svg)](https://github.com/st2f/job-ad-parser-ai/actions/workflows/main.yml)
 
-A local-first and CI-ready pipeline that converts messy job ads into clean, structured, versioned markdown using an LLM.
+# AI Job Ad Parser
+
+Turn messy copied job ads into clean, structured markdown with AI.
 
 ## Structure
 
@@ -15,6 +17,9 @@ src/
 ```
 
 The sample job ad is fully synthetic and intentionally noisy (duplicates, UI text, etc.) to simulate real copy-paste from job platforms.
+
+Example [before](https://github.com/st2f/job-ad-parser-ai/blob/main/jobs/raw/sample-backend-engineer.txt) ->
+[after](https://github.com/st2f/job-ad-parser-ai/blob/main/jobs/processed/sample-backend-engineer.md)
 
 ## Local usage
 

@@ -1,0 +1,146 @@
+https://example.com/jobs/senior-backend-RealTekno
+
+
+
+Senior Backend Engineer Python | CDI
+CDI
+Salaire : 65k€ - 75k€
+Remote partiel
+
+Postuler
+
+Sauvegarder
+RealTekno
+Senior Backend Engineer Python | CDI
+CDI
+Paris
+Remote partiel
+Salaire :
+65k€ - 75k€
+
+Postuler
+
+Sauvegarder
+il y a 12 jours
+
+
+RealTekno
+RealTekno
+Cette offre vous intéresse ?
+
+
+Postuler
+
+Sauvegarder
+Questions et réponses sur l'offre
+
+Le télétravail est-il possible pour ce poste ?
+Le type de contrat est-il bien un CDI ?
+Le salaire est-il fixe ou selon expérience ?
+Faut-il parler français couramment ?
+
+Le poste
+Descriptif du poste
+Chez RealTekno, on construit une plateforme SaaS pour aider les acteurs de l'énergie à mieux piloter leur consommation et leurs opérations grâce à la data temps réel.
+
+On cherche aujourd'hui un ou une Senior Backend Engineer pour renforcer l'équipe produit / tech.
+L'idée n'est pas juste d'écrire des endpoints de plus, mais de participer à la structuration d'un socle backend robuste, capable d'encaisser la croissance de la plateforme dans les mois qui viennent.
+
+Ce qu'on aime dans ce poste : beaucoup d'autonomie, des sujets concrets, une équipe qui parle franchement, pas mal de marge de manoeuvre et de la place pour proposer.
+
+Infos rapides
+- localisation : Paris
+- remote possible la plupart du temps, mais il faut pouvoir venir de temps en temps sur site pour certains ateliers / réunions d'équipe
+- contrat : CDI
+- package entre 65k€ et 75k€ selon expérience
+
+Contexte
+La team engineering est encore à taille humaine (environ 6 personnes côté dev aujourd'hui), donc on cherche quelqu'un d'assez autonome, qui aime échanger avec le produit, comprendre les vrais usages, challenger certaines décisions techniques si besoin, et aider les profils plus juniors à monter en puissance.
+
+Pour être transparent, on est dans une phase où tout n'est pas totalement figé. Il y a de l'existant à faire évoluer, de nouvelles briques à construire, et parfois des arbitrages à faire entre vitesse, qualité et simplicité.
+
+Petit résumé si vous lisez vite : backend Python, APIs, PostgreSQL, Docker, un peu d'AWS, travail en équipe, et envie d'améliorer les choses au lieu de juste exécuter.
+
+En tant que Senior Backend Engineer, vous interviendrez notamment sur :
+
+faire évoluer des services backend existants
+
+corriger ce qui doit l'être
+
+concevoir de nouvelles briques API
+
+reprendre certains sujets d'architecture
+
+travailler la performance, l'observabilité et la fiabilité
+
+collaborer avec les personnes côté front / data
+
+revoir du code et participer aux discussions techniques
+
+contribuer aux choix techniques quand il faut trancher
+
+Stack actuelle (susceptible d'évoluer, on ne cherche pas un clone parfait) : Python, FastAPI, PostgreSQL, Docker, AWS avec notamment S3 et ECS, CI/CD via GitHub Actions.
+
+Profil recherché
+Vous avez idéalement 5 ans ou plus d'expérience en backend.
+Une bonne maîtrise de Python est attendue, ou à défaut un langage serveur proche avec une vraie capacité à monter rapidement.
+Il faut aussi être solide sur les API REST, les systèmes distribués, et les bases SQL.
+
+On appréciera aussi une bonne communication, la capacité à expliquer simplement ses choix, et l'envie de faire progresser le collectif.
+
+Ce n'est pas obligatoire mais ça aidera clairement si vous avez déjà touché à :
+- des sujets infra / cloud AWS
+- des pipelines de données ou de l'ETL
+- un peu de frontend, typiquement React, même sans être spécialiste
+
+À noter aussi : le poste est basé à Paris, avec organisation flexible. On peut être très souvent à distance, mais il faut être OK pour venir ponctuellement au bureau.
+
+Ce que nous offrons
+fonctionnement flexible avec télétravail
+10 RTT
+mutuelle prise en charge à 100%
+retraite / offsite d'équipe une fois par an
+environnement où on peut proposer des idées et avoir de l'impact
+
+Package indiqué plus haut : 65k€ - 75k€ selon expérience.
+
+Déroulement des entretiens
+1. premier échange RH / visio
+2. entretien technique
+3. discussion finale avec le CTO
+
+Si vous aimez les environnements où tout n'est pas encore figé, où il faut autant construire que faire avancer l'existant, c'est probablement un bon fit.
+
+PS : on sait que personne ne coche 100% des cases, donc si le rôle vous parle vraiment, candidatures bienvenues.
+
+Voir moins
+Envie d'en savoir plus ?
+
+Rencontrez Thomas, Staff Engineer
+
+Rencontrez Julie, Talent Partner
+
+RealTekno
+RealTekno
+Logiciels, SaaS / Cloud, Energie
+42 collaborateurs
+Créée en 2020
+Âge moyen : 32 ans
+Voir le site
+Voir toutes les offres
+
+Qui sommes-nous ?
+RealTekno développe des outils pour aider les équipes opérationnelles à mieux exploiter leurs données énergétiques et industrielles.
+
+Voir plus
+Avantages
+RTT / jours de repos
+Télétravail
+Mutuelle
+Offsite annuel
+
+Le lieu de travail
+Paris, Île-de-France, France
+
+Besoin de plus d'infos ?
+Vie d'équipe, stack, culture produit... on a encore plein de choses à raconter.

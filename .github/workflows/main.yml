@@ -1,0 +1,68 @@
+name: Process Job Ads
+
+on:
+  push:
+    paths:
+      - "jobs/raw/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect changed raw files
+        id: changed-files
+        shell: bash
+        run: |
+          before_sha="${{ github.event.before }}"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$before_sha" ] || [ "$before_sha" = "0000000000000000000000000000000000000000" ]; then
+            git ls-files 'jobs/raw/**' > changed_files.txt
+          else
+            git diff --name-only "$before_sha" "${{ github.sha }}" -- 'jobs/raw/**' > changed_files.txt
+          fi
+
+          awk 'NF' changed_files.txt > changed_files_clean.txt
+          mv changed_files_clean.txt changed_files.txt
+
+          echo "count=$(wc -l < changed_files.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Process changed files
+        if: steps.changed-files.outputs.count != '0'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        shell: bash
+        run: |
+          while IFS= read -r file; do
+            if [ -f "$file" ]; then
+              python3 src/run.py "$file"
+            fi
+          done < changed_files.txt
+
+      - name: Commit processed outputs
+        if: steps.changed-files.outputs.count != '0'
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- jobs/processed)" ]; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs/processed
+          git commit -m "chore: process job ads"
+          git push
